@@ -125,7 +125,7 @@ If we run this script on csil.cs.ucsb.edu by typing "node" then the filename:
 
 Then we can bring up the URL http://csil.cs.ucsb.edu:8888 and see the output "Hello World", as shown in this image:
 
-http://www.cs.ucsb.edu/~pconrad/github/pconrad-csil-node-js-demo-1/examples/simpleServer/server.js.example.png
+![Putting URL http://csil.cs.ucsb.edu:8888 in browser](http://www.cs.ucsb.edu/~pconrad/github/pconrad-csil-node-js-demo-1/examples/simpleServer/server.js.example.png)
 
 To stop the server, just type CTRL-C:
 
