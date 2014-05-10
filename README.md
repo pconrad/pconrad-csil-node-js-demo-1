@@ -221,3 +221,26 @@ module.exports.fum = fum
 
 So perhaps "module" is the default.   Or maybe, there are different versions of node.js?   Don't know yet.
 
+That link also shares this trick---you can make the exports value BE a function.
+
+E.g. 
+
+```javascript
+// square.js 
+function square(x) { return x * x; }
+module.exports = square
+```
+
+Then when you require the file, the returned value is the actual function.  Thus:
+
+```javascript
+var y = require('./square')(3);
+```
+
+is, supposedly, a shortcut way of writing:
+
+```javascript
+var square = require('./square')
+var y = square(3) 
+```
+
