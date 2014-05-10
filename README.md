@@ -38,4 +38,9 @@ Hello
 > 
 ```
 
+The node command 
+================
 
+The man page for the node command is online here (and in this repo as a .md file):
+
+https://github.com/pconrad/pconrad-csil-node-js-demo-1/blob/master/node_man_page.md
