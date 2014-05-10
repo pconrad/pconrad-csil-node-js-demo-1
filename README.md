@@ -178,3 +178,46 @@ tcp        0      0 127.0.0.1:6016          0.0.0.0:*               LISTEN
 tcp        0      0 0.0.0.0:36032           0.0.0.0:*               LISTEN     
 ...
 ```
+
+Next step: modules
+==================
+
+There is a good explanation of creating "modules" at:
+
+http://www.nodebeginner.org/#finding-a-place-for-our-server-module
+
+and example code under examples/simpleServerWithModules
+
+The basic idea is that you create a file, say foo.js, and there will be some functions in that file
+that you define that you want users of your module to have access to, say function bar.  You do this:
+
+```javascript
+// foo.js
+function bar(x) { 
+  // some code goes here
+  return x + 1; // just an example
+}
+exports.bar = bar;
+```
+
+If there are multiple functions to export, just type multiple lines:
+
+```javascript
+exports.bar = bar;
+exports.fum = fum;
+```
+
+
+Another explanation of modules is here:
+
+http://openmymind.net/2012/2/3/Node-Require-and-Exports/
+
+It suggests that instead, you should type:
+
+```javascript
+module.exports.bar = bar
+module.exports.fum = fum
+```
+
+So perhaps "module" is the default.   Or maybe, there are different versions of node.js?   Don't know yet.
+
