@@ -38,9 +38,23 @@ Hello
 > 
 ```
 
-The node command 
-================
+The node command: running a script
+==================================
 
 The man page for the node command is online here (and in this repo as a .md file):
 
 https://github.com/pconrad/pconrad-csil-node-js-demo-1/blob/master/node_man_page.md
+
+Other than starting a repl, the next thing you can do with the node command is run a script.
+
+The script can just do some simple calculation, or it can start a server.
+
+Here's an example of a simple calculation:
+
+
+
+
+
+
+
+simplest thing you can do with the node command is start a server.   To start a server
