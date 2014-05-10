@@ -51,7 +51,9 @@ The script can just do some simple calculation, or it can start a server.
 
 Here's an example of a simple calculation; the kind of thing you might do in the first few weeks of an intro programming class.
 
-Suppose the file simpleCalc.js contains:
+Suppose the file simpleCalc.js contains the following
+(found in this repo in examples/simpleCalculation/simpleCalc.js ):
+
 
 ```javascript
 // P.Conrad simpleCalc.js
@@ -102,7 +104,7 @@ x	f(x)
 
 If instead, you want to start a server, here's a script that does that.   The source is the node.js tutorial http://www.nodebeginner.org/#building-the-application-stack
 
-Suppose the file server.js contains:
+Suppose the file server.js contains the following (found in this repo in examples/simpleServer/server.js ):
 
 ```javascript
 var http = require("http");
