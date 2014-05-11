@@ -244,3 +244,14 @@ var square = require('./square')
 var y = square(3) 
 ```
 
+A Simple File Server
+====================
+
+An example of a simple file server is found here:
+
+* On UCSB Campus (full text): http://proquest.safaribooksonline.com/book/programming/9781449315016/1dot-what-is-nodedotjs/id2752016
+* Off UCSB Campus (requires login): http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/book/programming/9781449315016/1dot-what-is-nodedotjs/id2752016
+
+
+Code is in examples/simpleFileServer/NodeFileServer.js
+
